@@ -1,0 +1,24 @@
+{
+  "name": "zetta-starter-driver",
+  "version": "0.1.0",
+  "description": "Zetta starter driver for any platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "zetta-device": "*",
+    "zetta-scout": "*",
+    "binrpc": "0.0.3",
+    "homematic-xmlrpc": "~1.0.0"
+  },
+  "directories": {
+    "example": "example"
+  },
+  "keywords": [
+    "zetta",
+    "starter",
+    "any platform"
+  ]
+}
