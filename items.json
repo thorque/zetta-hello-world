@@ -1,0 +1,29 @@
+{
+  "Switch 1": {
+    "origin": "KEQ0037772:1"
+  },
+
+  "Switch 2": {
+    "origin": "JEQ0696747:1"
+  },
+
+  "Heating 1":{
+    "origin": "KEQ0427657:4"
+  },
+
+  "Switch 1.1": {
+    "origin": "JEQ0056226:1"
+  },
+
+  "Switch 2.1": {
+    "origin": "JEQ0056223:1"
+  },
+
+  "Heating 1.1":{
+    "origin": "KEQ0153250:4"
+  },
+
+  "Fenster 1": {
+    "origin": "KEQ0092648:1"
+  }
+}

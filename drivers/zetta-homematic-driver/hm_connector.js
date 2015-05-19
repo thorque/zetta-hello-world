@@ -26,7 +26,7 @@ HM_Connector.prototype.init = function(config, callback) {
         rpc_server_started = true;
     }
 
-    hm_client.methodCall('init', ['xmlrpc_bin://192.168.132.26:9091', "hmm_0"], function(err, data) {
+    hm_client.methodCall('init', ["xmlrpc_bin://"+config.server_host+":"+config.server_port, "hmm_0"], function(err, data) {
         if (err){
             log.error("Cannot initializing Homematic client.", err);
         }
